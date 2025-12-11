@@ -25,3 +25,12 @@
 # Operation finished.
 
 # write your code here:
+
+try:
+    number1 = int(input("Type in a number:" ))
+    number2 = int(input("Type in another number:" ))
+    number1/number2
+except:
+    print ("Error found")
+finally:
+    print( "Operation finished.")  
