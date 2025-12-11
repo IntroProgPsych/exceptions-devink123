@@ -22,3 +22,12 @@
 # Attempt finished.
 
 # write your code here:
+
+try:
+    integer = int(input("Enter an integer:" ))
+except: 
+    print("Error found")
+else:
+    print("Conversion successful!")
+finally:
+    print("Attempt finished.")
